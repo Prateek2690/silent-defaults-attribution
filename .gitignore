@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+# local outputs
+results_sba/
+results_v3/
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/paper.pdf
+# public input data is downloaded locally, never committed
+data/*.csv
+data/*.xlsx
+data/*.csv.gz
+.DS_Store

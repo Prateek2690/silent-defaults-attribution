@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite the working paper below."
+title: "Silent Defaults and Phantom Effects: attribution code and public-data benchmark"
+abstract: >-
+  Code for owner-aware differential-fallback repair in counterfactual attribution of
+  expected-loss changes, with a public-data study built from SBA 7(a) FOIA files and the
+  U.S. Census Bureau NAICS 2022-to-2017 concordance.
+type: software
+authors:
+  - family-names: Bhatnagar
+    given-names: Prateek
+    orcid: "https://orcid.org/0009-0000-0359-3268"
+license: MIT
+version: 1.0.0
+date-released: "2026-10-14"
+repository-code: "https://github.com/Prateek2690/silent-defaults-attribution"
+keywords:
+  - attribution
+  - Shapley value
+  - expected credit loss
+  - data quality
+  - counterfactual analysis
+preferred-citation:
+  type: article
+  title: "Silent Defaults and Phantom Effects: Owner-Aware Attribution of Expected-Loss Changes in Versioned Reporting Pipelines, with Evidence from Public Loan Data"
+  authors:
+    - family-names: Bhatnagar
+      given-names: Prateek
+      orcid: "https://orcid.org/0009-0000-0359-3268"
+  year: 2026
+  journal: "SSRN Working Paper"
+  url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7486440"
+  notes: "Working paper, not peer-reviewed."

@@ -1,0 +1,7 @@
+seed,method,code_fix_recovered_pct,rating_system_recovered_pct
+0,proposed,100.0,100.0
+0,unowned,-0.0,50.0
+1,proposed,100.0,100.0
+1,unowned,-0.0,49.99999999999997
+2,proposed,100.0,100.0
+2,unowned,-0.0,49.99999999999999

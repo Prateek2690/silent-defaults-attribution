@@ -1,0 +1,35 @@
+---
+title: "Silent Defaults and Phantom Effects: Owner-Aware Attribution of Expected-Loss Changes in Versioned Reporting Pipelines, with Evidence from Public Loan Data"
+author:
+  - "Prateek Bhatnagar\\thanks{Independent Researcher. Email: bhatnagar.prateek90@gmail.com. ORCID: 0009-0000-0359-3268. This research was conducted independently, without the use of any employer's data, systems, models, code, or confidential information. All cited materials are publicly available and all experiments use synthetic data.}"
+date: "Working Paper · September 2026"
+abstract: |
+  Institutions explain changes in an expected-loss figure by re-running the calculation with some inputs from the prior period and some from the current one, then attributing the change to business movement, reference data, rating systems, models, and code. These what-if runs are assumed to be meaningful. We identify a failure mode in which they are not, yet nothing signals it: reporting pipelines replace inputs they cannot handle with default values, such as a pooled probability of default for an unrecognized grade or a catch-all industry segment, and in what-if runs these defaults fire without errors or missing values. Attribution then books fictitious "phantom" effects to older components. We propose owner-aware differential-fallback repair: each fallback site is instrumented and assigned to the component that owns it, and a what-if evaluation is repaired for a record only when an owned default depends on that component's version and was not already present in the filed run in which that version was in force. The filed runs are never altered, so the attribution reconciles to both filed figures, and the method reports the share of the figure that could not be separated. We evaluate on a portfolio of 292,000 loans built from public U.S. Small Business Administration disclosure files, using the U.S. Census Bureau's official 2017-to-2022 industry-classification revision as the reference-data change, with probability-of-default and loss parameters estimated from realized charge-offs. Standard methods disagree about a \$2.6 billion change by billions of dollars and about the sign of the rating-system effect; they book \$28--46 million of mapping effect on loans whose industry codes never existed under the prior mapping, and one baseline assigns \$4.5 billion of business movement to loans that did not change. A controlled synthetic benchmark, where ground truth exists by construction, confirms the behaviour. The method's central requirement is instrumentation completeness: leaving one fallback site untagged changes the headline effect fourfold.
+keywords: "expected credit loss; allowance for credit losses; attribution; Shapley value; counterfactual analysis; data pipelines; data quality; disguised missing values; model risk management; financial reporting"
+bibliography: refs.bib
+link-citations: true
+numbersections: true
+geometry: margin=1in
+fontsize: 11pt
+mainfont: Liberation Serif
+linestretch: 1.15
+colorlinks: true
+header-includes:
+  - \usepackage{booktabs}
+  - \usepackage{array}
+  - \usepackage{amsthm}
+  - \newtheorem{proposition}{Proposition}
+  - \usepackage{caption}
+  - \usepackage{float}
+  - \captionsetup{font=small,labelfont=bf}
+  - \renewcommand{\topfraction}{0.92}
+  - \renewcommand{\bottomfraction}{0.75}
+  - \renewcommand{\textfraction}{0.08}
+  - \renewcommand{\floatpagefraction}{0.80}
+  - \setlength{\floatsep}{10pt plus 2pt minus 2pt}
+  - \setlength{\textfloatsep}{14pt plus 2pt minus 3pt}
+  - \setlength{\intextsep}{12pt plus 2pt minus 2pt}
+  - \raggedbottom
+---
+
+
