@@ -1,5 +1,7 @@
 # Silent Defaults and Phantom Effects
 
+[![DOI](https://zenodo.org/badge/1418676652.svg)](https://doi.org/10.5281/zenodo.23363839)
+
 Code and data pipeline for the working paper **"Silent Defaults and Phantom Effects: Owner-Aware Attribution of Expected-Loss Changes in Versioned Reporting Pipelines, with Evidence from Public Loan Data"** by Prateek Bhatnagar ([SSRN 7486440](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7486440), September 2026; a working paper, not yet peer-reviewed). The posted version of the paper is in [`paper/posted-v1.0.0.pdf`](paper/posted-v1.0.0.pdf).
 
 Counterfactual ("what-if") attribution explains how a reported expected-loss figure changed by re-running the
@@ -96,7 +98,8 @@ with known antecedents; it is cited in the paper, not claimed.
 
 ## Citing
 
-See [`CITATION.cff`](CITATION.cff). The working paper is the primary reference; this repository is the code artifact.
+See [`CITATION.cff`](CITATION.cff). The working paper is the primary reference; this repository is the code artifact
+(software DOI [`10.5281/zenodo.23363839`](https://doi.org/10.5281/zenodo.23363839), version 1.0.0).
 
 > Bhatnagar, P. (2026). *Silent Defaults and Phantom Effects: Owner-Aware Attribution of Expected-Loss Changes in
 > Versioned Reporting Pipelines, with Evidence from Public Loan Data.* SSRN Working Paper 7486440.
